@@ -1,0 +1,109 @@
+JavaScript operators perform various tasks and are categorized based on their functionality. 
+Here's a breakdown:
+
+1. Arithmetic Operators:
+
+Perform basic mathematical operations like addition, subtraction, multiplication, division, 
+and modulo.
+
+Examples:
+
++: Addition (2 + 3 = 5)
+-: Subtraction (5 - 2 = 3)
+*: Multiplication (4 * 2 = 8)
+/: Division (8 / 2 = 4)
+%: Modulo (9 % 2 = 1)
+
+2. Assignment Operators:
+
+Assign values to variables or modify existing values.
+
+Examples:
+
+=: Simple assignment (x = 10)
++=: Adds and assigns (x += 5 becomes x = 15)
+-=: Subtracts and assigns (y -= 2 becomes y = 8)
+*=: Multiplies and assigns (z *= 3 becomes z = 27)
+/=: Divides and assigns (a /= 0.5 becomes a = 2)
+
+3. Comparison Operators:
+
+Compare two operands and return a boolean value (true or false).
+
+Examples:
+
+>: Greater than (5 > 3 is true)
+<: Less than (2 < 7 is true)
+==: Equal to (10 == 10 is true)
+!=: Not equal to (10 != 5 is true)
+===: Strict equal to (10 === "10" is false)
+!==: Strict not equal to (10 !== "10" is true)
+
+4. Logical Operators:
+
+Perform logical operations on boolean values (true and false).
+
+Examples:
+
+&&: Logical AND (true && true is true)
+||: Logical OR (false || true is true)
+!: Logical NOT (!true is false)
+
+5. Bitwise Operators:
+
+Operate on individual bits of binary representations of data.
+
+Examples:
+
+&: Bitwise AND (4 & 5 is 0)
+|: Bitwise OR (4 | 5 is 7)
+~: Bitwise NOT (~4 is -5)
+<<: Left shift (4 << 1 is 8)
+>>: Right shift (8 >> 1 is 4)
+
+6. Conditional Operators:
+
+Select a value based on a condition.
+
+Examples:
+
+ternary operator (a ? b : c) - If a is true, then b is selected, else c is selected.
+
+7. String Operators:
+
+Manipulate strings.
+
+Examples:
+
++: Concatenation ("Hello" + "World" is "HelloWorld")
+==: Comparison ("abc" == "abc" is true)
+indexOf: Search for a substring ("Hello".indexOf("o") is 4)
+
+8. Increment/Decrement Operators:
+
+Increment or decrement a variable by 1.
+
+Examples:
+
+++: Increment (x++ is equivalent to x = x + 1)
+--: Decrement (y-- is equivalent to y = y - 1)
+
+9. Unary Operators:
+
+Operate on a single operand.
+
+Examples:
+
+-x: Negates x (-5 becomes 5)
+!x: Logical NOT of x (!true becomes false)
+typeof x: Returns the type of x (typeof 10 is "number")
+
+10. Special Operators:
+
+These operators perform specific tasks not fitting into other categories.
+
+Examples:
+
+delete: Deletes a property from an object
+in: Checks if a property exists in an object
+new: Creates a new instance of an object
