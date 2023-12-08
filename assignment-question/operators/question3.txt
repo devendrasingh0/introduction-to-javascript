@@ -1,0 +1,34 @@
+Differentiation of Unary, Binary, and Ternary Operators in Javascript:
+
+1. Unary Operators:
+
+Number of Operands: Takes one operand.
+
+Functionality: Perform operations on a single value, such as negation, increment/decrement, logical NOT, and type conversion.
+
+Examples:
+-5 (negates 5)
+++x (increments x by 1)
+!true (logical NOT of true)
+typeof 10 (returns the type of 10, which is "number")
+
+2. Binary Operators:
+
+Number of Operands: Takes two operands.
+
+Functionality: Perform operations on two values, such as arithmetic operations, comparisons, and logical operations.
+
+Examples:
+2 + 3 (addition)
+5 > 3 (comparison)
+x === y (strict comparison)
+true && false (logical AND)
+
+3. Ternary Operator:
+
+Number of Operands: Takes three operands.
+
+Functionality: Selects a value based on a condition.
+
+Example:
+age >= 18 ? "adult" : "child" (returns "adult" if age is greater than or equal to 18, else returns "child")
